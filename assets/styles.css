@@ -1,0 +1,6 @@
+:root { --ink:#0b1120; --panel:#101827; --line:#243247; --cyan:#25c7d9; --green:#10b981; --muted:#94a3b8; }
+.stApp { background:var(--ink); color:#e8edf4; }
+[data-testid='stSidebar'] { background:#0d1525; border-right:1px solid var(--line); }
+.brand { color:#e8edf4; font-weight:800; letter-spacing:1.4px; padding:12px 4px 22px; font-size:16px; }.brand span,.eyebrow { color:var(--cyan); font-size:10px; letter-spacing:2px; }
+.topbar { display:flex; justify-content:space-between; align-items:center; border:1px solid var(--line); border-radius:12px; background:var(--panel); padding:15px 20px; margin:0 0 18px; }.topbar h1 { margin:2px 0 0; font-size:25px; }.status { text-align:right; color:var(--green); }.status small { color:var(--muted); }
+[data-testid='stMetric'] { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px; }.memory-map {display:flex; min-height:92px; border:1px solid var(--line); border-radius:9px; overflow:hidden; margin:8px 0 15px}.memory-block {min-width:55px; color:white; font-size:11px; padding:8px; border-right:1px solid #0b1120; text-align:center; display:flex;align-items:center;justify-content:center;flex-direction:column}.stButton>button { border-radius:7px; border:1px solid #1c7180; background:#123244; color:#e7fbff; }.stDataFrame { border:1px solid var(--line); border-radius:8px; }

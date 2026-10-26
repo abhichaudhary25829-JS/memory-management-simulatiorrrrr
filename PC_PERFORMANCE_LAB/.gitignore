@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+.venv/
+simulation_history.json
